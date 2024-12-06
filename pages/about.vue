@@ -4,3 +4,8 @@
     <p>This is the about page</p>
   </div>
 </template>
+<script setup>
+useHead({
+  titleTemplate: "About",
+});
+</script>
